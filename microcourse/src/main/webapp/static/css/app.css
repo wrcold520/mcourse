@@ -1,0 +1,102 @@
+/** 通用 **/
+/** 圆角px **/
+.radius-2px {
+	border-radius: 2px;
+}
+
+.radius-5px {
+	border-radius: 5px;
+}
+
+.radius-10px {
+	border-radius: 10px;
+}
+
+.radius-20px {
+	border-radius: 20px;
+}
+
+.radius-50px {
+	border-radius: 50px;
+}
+
+/** 圆角百分比 **/
+.radius-2 {
+	border-radius: 2%;
+}
+
+.radius-5 {
+	border-radius: 5%;
+}
+
+.radius-10 {
+	border-radius: 10%;
+}
+
+.radius-20 {
+	border-radius: 20%;
+}
+
+.radius-50 {
+	border-radius: 50%;
+}
+
+.mc-portrait-bg {
+	background: -webkit-linear-gradient(top, #7fcef7, 18%, #bcddff, 66.66%, #fbfbfb);
+	background: -o-linear-gradient(bottom, #7fcef7, 18%, #bcddff, 66.66%, #fbfbfb);
+	background: -moz-linear-gradient(bottom, #7fcef7, 18%, #bcddff, 66.66%, #fbfbfb);
+	background: linear-gradient(to bottom, #7fcef7, 18%, #bcddff, 66.66%, #fbfbfb);
+}
+
+.mc-protrait-img {
+	width: 96px;
+	height: 96px;
+	background: #f9f9f9;
+}
+
+/** reset amazeui css **/
+/** amazeui.css 11823 **/
+.am-header-default {
+	background-color: #7fcef7;
+}
+
+/** amazeui.css 8501 **/
+.am-dropdown-content {
+	min-width: 120px;
+	border-radius: 5px;
+}
+
+/** amazeui.css 8598 **/
+ul.am-dropdown-content>li>a {
+	padding: 6px 16px;
+	color: #6f6f6f;
+}
+
+/** amazeui.css 8607 **/
+ul.am-dropdown-content>li>a:hover, ul.am-dropdown-content>li>a:focus {
+	color: #2695c1;
+}
+
+/** amazeui.css 7365 **/
+.am-thumbnail {
+	margin: 0.5rem 0;
+}
+
+.am-slider .am-slides {
+	text-align: center;
+}
+
+.am-slider .am-slides img {
+	width: auto;
+	display: inline;
+}
+
+.am-slider-desc {
+	text-align: left;
+}
+
+
+/** amazeui.css 704 **/
+[class*="am-u-"] + [class*="am-u-"]:last-child {
+    float: left;
+}
